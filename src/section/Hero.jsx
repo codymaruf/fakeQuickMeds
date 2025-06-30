@@ -1,13 +1,13 @@
 
 const Hero = () => {
   return (
-    <section className="relative h-[85vh] w-full">
+    <section className="relative h-[600px] w-full">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
           src="/assets/delevery.jpg"
           alt="Hero"
-          className="w-full h-full object-cover"
+          className="w-full h-[600px] object-cover"
         />
       </div>
 
@@ -17,11 +17,11 @@ const Hero = () => {
       </div>
 
       {/* Subtext & Button */}
-      <div className='absolute z-10 p-10 top-95 tablet:top-105 sm:right-5 text-center tablet:flex tablet:flex-col'>
+      <div className='absolute z-10 p-10 top-100 sm:right-5 text-center'>
              <p className='text-lg md:font-bold text-center mb-5'>On-demand access to essential meds. No lines. No delays.</p>
             <button
                     href="#cta"
-                className="px-5 py-2 rounded-md text-sm font-semibold bg-sky-blue text-gray-800 hover:bg-navy-blue hover:text-white cursor-pointer transition duration-200 ease-in-out "
+                className="px-5 py-2 rounded-md text-sm font-semibold bg-sky-blue text-gray-800 hover:bg-navy-blue hover:text-white cursor-pointer transition duration-200 ease-in-out sm:w-100"
             >
                     Join Waitlist
             </button>
